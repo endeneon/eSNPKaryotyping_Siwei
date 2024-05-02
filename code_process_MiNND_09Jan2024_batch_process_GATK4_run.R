@@ -278,11 +278,4 @@ for (k in 1:length(bam_file_list)) {
 #                temp_dir = temp_dir)
 
 
-### test codes #####
-library(readr)
-pdf_series_name <- "test_pdf"
 
-tbl_DeletionTable_output <-
-  read_delim("/data/FASTQ/MiNND_RNASeq_Novagene_14Nov23/BAMs/run_test/working/Deletions.txt",
-             delim = "\t", escape_double = FALSE,
-             trim_ws = TRUE)
